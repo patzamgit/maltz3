@@ -490,9 +490,12 @@ body {
 .hero-2 .form-alt .submit-button {
   height: 45px;
   border: 0;
-  border-radius: 0 4px 4px 0;
+  /*border-radius: 0 4px 4px 0;
   margin-left: -25px;
-  padding: 0 25px 0 25px;
+  padding: 0 25px 0 25px;*/
+	border-radius: 4px;
+	padding: 15px 25px;
+	text-decoration:none;
 	background: #6d48e5;
 	font-family: 'Montserrat';
 	font-size: 14px;
