@@ -440,7 +440,8 @@ body {
 }
 
 .hero-2 .hero-content {
-		padding: 50px 0;
+		/*padding: 50px 0;*/
+		padding: 0px;
 }
 
 .hero-2 .hero-img {
