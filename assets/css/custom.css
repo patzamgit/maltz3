@@ -131,14 +131,16 @@
 	min-width: 20px;
 }
 .top-back{
-	max-width:610px;
-	min-width:610px;
-    box-shadow:0 20px 30px rgba(125,147,178,.3);
+	width:100%;
+	/*max-width:720px;*/
+	/*min-width:610px;*/
+  box-shadow:0 20px 30px rgba(125,147,178,.3);
 }
 .top-video{
 	position: absolute;
-	width: 720px;/*609px;*/
-	top: 57px;/*33px;*/
+	width:100%;height:100%;
+	/*max-width: 720px;609px;*/
+	top: 0px;/*33px;*/
 }
 .top-phone{
 	position: absolute; 
@@ -189,13 +191,14 @@
 		font-size: 36px;
 	}
 	.top-back{
-		max-width:510px;
-		min-width:510px;
+		/*max-width:510px;
+		min-width:510px;*/
 	}
 	.top-video{
-		position: absolute;
-		width: 720px;/*509px;*/
-    top: 57px;/*69px;*/
+		/*position: absolute;
+		width:100%;height:100%;*/
+		/*max-width: 720px;509px;*/
+    /*top: 57px;69px;*/
 	}
 
 	.top-phone{
@@ -222,13 +225,13 @@
 }@media (max-width: 1144px) {
 	
 	.top-back{
-		max-width:450px;
-		min-width:450px;
+		/*max-width:450px;
+		min-width:450px;*/
 	}
 	.top-video{
-		position: absolute;
-		width: 720px;/*449px;*/
-    top: 57px;/*114px;*/
+		/*position: absolute;*/
+		/*width: 720px;449px;*/
+    /*top: 57px;114px;*/
 	}
 
 	.top-phone{
@@ -246,8 +249,13 @@
 
 @media (max-width: 1024px) {
 	.flex.flex-direction-row.flex-align-center{
-		display: none;
+		/*display: none;*/
+		width:100%;
+		margin-right:0px;
 	}
+	
+	.top-phone{display:none;}
+	
 	.tablesaw-swipe-cellpersist{
 		font-size: 12px !important;
 		padding-right: 30px !important;
